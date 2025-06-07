@@ -6,7 +6,7 @@
 /*   By: dkhoo <dkhoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 11:37:29 by dkhoo             #+#    #+#             */
-/*   Updated: 2025/06/07 18:03:24 by dkhoo            ###   ########.fr       */
+/*   Updated: 2025/06/07 18:11:12 by dkhoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ static int	ft_read_line(int fd, char **line)
 	{
 		read_buf = malloc(BUFFER_SIZE + 1);
 		if (!read_buf)
-			return (free(read_buf), READ_ERROR);
+			return (READ_ERROR);
 		bytes_read = read(fd, read_buf, BUFFER_SIZE);
 		if (bytes_read <= 0)
 			return (free(read_buf), bytes_read);
@@ -164,7 +164,8 @@ int	main(void)
 	{
 		s = get_next_line(fd);
 		printf("line [%02d]: %s", i, s);
-		free(s);
+		if (s)
+			free(s);
 		i++;
 	}
 	close(fd);
