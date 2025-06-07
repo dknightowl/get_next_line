@@ -6,7 +6,7 @@
 /*   By: dkhoo <dkhoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 11:37:29 by dkhoo             #+#    #+#             */
-/*   Updated: 2025/06/07 18:11:12 by dkhoo            ###   ########.fr       */
+/*   Updated: 2025/06/07 18:44:30 by dkhoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,22 +152,22 @@ char	*get_next_line(int fd)
 	return (line_buffer);
 }
 
-int	main(void)
-{
-	char	*s;
-	int		i;
-	int		fd;
+// int	main(void)
+// {
+// 	char	*s;
+// 	int		i;
+// 	int		fd;
 
-	fd = open("get_next_line.c", O_RDONLY);
-	i = 1;
-	while (i <= 5)
-	{
-		s = get_next_line(fd);
-		printf("line [%02d]: %s", i, s);
-		if (s)
-			free(s);
-		i++;
-	}
-	close(fd);
-	return (0);
-}
+// 	fd = open("get_next_line.c", O_RDONLY);
+// 	i = 1;
+// 	while (i <= 5)
+// 	{
+// 		s = get_next_line(fd);
+// 		printf("line [%02d]: %s", i, s);
+// 		if (s)
+// 			free(s);
+// 		i++;
+// 	}
+// 	close(fd);
+// 	return (0);
+// }

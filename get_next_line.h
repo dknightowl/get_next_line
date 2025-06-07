@@ -6,7 +6,7 @@
 /*   By: dkhoo <dkhoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 10:35:21 by dkhoo             #+#    #+#             */
-/*   Updated: 2025/06/07 18:03:32 by dkhoo            ###   ########.fr       */
+/*   Updated: 2025/06/07 18:44:39 by dkhoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 # define GET_NEXT_LINE_H
 
 // FOR TESTING
-# include <fcntl.h>
-# include <stdio.h>
+// # include <fcntl.h>
+// # include <stdio.h>
 
 # include <unistd.h>
 # include <stddef.h>
