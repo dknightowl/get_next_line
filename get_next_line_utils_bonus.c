@@ -6,11 +6,11 @@
 /*   By: dkhoo <dkhoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:52:45 by dkhoo             #+#    #+#             */
-/*   Updated: 2025/06/05 09:58:01 by dkhoo            ###   ########.fr       */
+/*   Updated: 2025/06/07 17:06:34 by dkhoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 /**
 	@brief Copies up to size - 1 characters from the NUL-terminated
