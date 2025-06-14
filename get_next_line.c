@@ -6,7 +6,7 @@
 /*   By: dkhoo <dkhoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 11:37:29 by dkhoo             #+#    #+#             */
-/*   Updated: 2025/06/07 18:44:30 by dkhoo            ###   ########.fr       */
+/*   Updated: 2025/06/14 11:39:30 by dkhoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -158,9 +158,9 @@ char	*get_next_line(int fd)
 // 	int		i;
 // 	int		fd;
 
-// 	fd = open("get_next_line.c", O_RDONLY);
+// 	fd = open("interspersed-nulls.txt", O_RDONLY);
 // 	i = 1;
-// 	while (i <= 5)
+// 	while (i <= 100)
 // 	{
 // 		s = get_next_line(fd);
 // 		printf("line [%02d]: %s", i, s);
